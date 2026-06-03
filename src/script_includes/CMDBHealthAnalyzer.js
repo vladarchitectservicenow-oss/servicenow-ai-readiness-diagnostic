@@ -1,8 +1,10 @@
-/**
- * CMDBHealthAnalyzer — Evaluates CMDB readiness for AI agents.
- * Measures: completeness, duplicates, orphans, staleness.
- * @class CMDBHealthAnalyzer @namespace x_snc_ard
- */
+// AI Readiness Diagnostic — CMDBHealthAnalyzer
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Evaluates CMDB readiness for AI agents.
+// Measures: completeness, duplicates, orphans, staleness.
+// @class CMDBHealthAnalyzer @namespace x_snc_ard
 var CMDBHealthAnalyzer = Class.create();
 CMDBHealthAnalyzer.prototype = {
     REQUIRED_FIELDS: ["name", "operational_status", "owned_by", "location", "manufacturer", "model_id"],

@@ -1,8 +1,10 @@
-/**
- * KBAnalyzer — Knowledge Base quality assessment for AI readiness.
- * Measures: empty articles, outdated, unattached, duplicates.
- * @class KBAnalyzer @namespace x_snc_ard
- */
+// AI Readiness Diagnostic — KBAnalyzer
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Knowledge Base quality assessment for AI readiness.
+// Measures: empty articles, outdated, unattached, duplicates.
+// @class KBAnalyzer @namespace x_snc_ard
 var KBAnalyzer = Class.create();
 KBAnalyzer.prototype = {
     initialize: function(diagRunId) { this.diagRunId = diagRunId || null; },

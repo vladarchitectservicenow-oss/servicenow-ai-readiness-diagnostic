@@ -1,4 +1,8 @@
-/** Weekly Health Scan — Scheduled Job. Runs Sundays 03:00. */
+// AI Readiness Diagnostic — Weekly Health Scan
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Scheduled Job. Runs Sundays 03:00.
 (function() {
     var scanner = new x_snc_ard.ProcessDebtScanner();
     var result = scanner.fullScan();

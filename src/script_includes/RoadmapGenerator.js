@@ -1,8 +1,10 @@
-/**
- * RoadmapGenerator — Generates prioritized remediation plan for AI readiness.
- * Scores: AI_impact * 0.4 + frequency * 0.3 + blocking_count * 0.2 + fix_ease * 0.1
- * @class RoadmapGenerator @namespace x_snc_ard
- */
+// AI Readiness Diagnostic — RoadmapGenerator
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Generates prioritized remediation plan for AI readiness.
+// Scores: AI_impact * 0.4 + frequency * 0.3 + blocking_count * 0.2 + fix_ease * 0.1
+// @class RoadmapGenerator @namespace x_snc_ard
 var RoadmapGenerator = Class.create();
 RoadmapGenerator.prototype = {
     initialize: function(diagRunId) { this.diagRunId = diagRunId || null; },

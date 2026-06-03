@@ -1,7 +1,8 @@
-/**
- * Scripted REST API — AI Readiness Diagnostic
- * Base: /api/x_snc_ard/v1/
- */
+// AI Readiness Diagnostic — Scripted REST API
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Base: /api/x_snc_ard/v1/
 (function process(request, response) {
     var path = request.pathInfo, method = request.method;
     try {

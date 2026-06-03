@@ -1,9 +1,11 @@
-/**
- * ProcessDebtScanner — Scans all workflows for broken patterns.
- * Detects: missing owners, inactive approvers, unreachable steps,
- * cycles, silent failures, duplicate triggers, missing error handlers.
- * @class ProcessDebtScanner @namespace x_snc_ard
- */
+// AI Readiness Diagnostic — ProcessDebtScanner
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Scans all workflows for broken patterns.
+// Detects: missing owners, inactive approvers, unreachable steps,
+// cycles, silent failures, duplicate triggers, missing error handlers.
+// @class ProcessDebtScanner @namespace x_snc_ard
 var ProcessDebtScanner = Class.create();
 ProcessDebtScanner.prototype = {
     DETECTORS: [

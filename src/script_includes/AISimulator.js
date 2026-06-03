@@ -1,8 +1,10 @@
-/**
- * AISimulator — Dry-run Otto/Now Assist behavior against workflows.
- * Identifies failure points before go-live.
- * @class AISimulator @namespace x_snc_ard
- */
+// AI Readiness Diagnostic — AISimulator
+// Copyright (C) 2026 Vladimir Kapustin
+// SPDX-License-Identifier: AGPL-3.0
+//
+// Dry-run Otto/Now Assist behavior against workflows.
+// Identifies failure points before go-live.
+// @class AISimulator @namespace x_snc_ard
 var AISimulator = Class.create();
 AISimulator.prototype = {
     initialize: function(diagRunId) { this.diagRunId = diagRunId || null; this.passCount = 0; this.warnCount = 0; this.failCount = 0; },
